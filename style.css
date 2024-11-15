@@ -1,5 +1,155 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f3e5d7;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  border-radius: 24px;
+  margin: 128px 0;
+  max-width: 736px;
+  background: white;
+  padding: 40px;
+}
+
+.young-serif-regular {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.outfit-regular {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.outfit-semibold {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.outfit-bold {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+img {
+  height: 300px;
+  width: 100%;
+  border-radius: 12px;
+}
+
+h1 {
+  font-size: 40px;
+  line-height: 100%;
+  color: #312e2c;
+  margin-bottom: 24px;
+}
+
+p,
+li,
+th {
+  font-size: 16px;
+  line-height: 150%;
+  color: #5f564d;
+}
+
+.time h2 {
+  font-size: 20px;
+  line-height: 100%;
+  color: #7a284e;
+  margin-bottom: 16px;
+}
+
+.time {
+  background: #fff7fb;
+  border-radius: 12px;
+  padding: 24px;
+}
+
+.time li::marker {
+  color: #7a284e;
+}
+
+ul li,
+ol li {
+  padding-left: 16px;
+}
+
+li:not(:last-child) {
+  margin-bottom: 2px;
+}
+
+section li::marker {
+  color: #854632;
+}
+
+ul,
+ol {
+  padding-left: 22px;
+}
+
+h2 {
+  font-size: 28px;
+  line-height: 100%;
+  color: #854632;
+  margin-bottom: 24px;
+}
+
+td {
+  font-size: 16px;
+  line-height: 150%;
+  color: #854632;
+}
+
+.text-content {
+  margin-top: 40px;
+}
+
+hr {
+  border-color: #e3ddd7;
+}
+
+section:not(:last-child) {
+  margin-bottom: 32px;
+}
+
+.instructions,
+.nutrition {
+  margin-top: 32px;
+}
+
+table {
+  margin-top: 24px;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  text-align: left;
+  width: 50%;
+  padding-top: 12px;
+}
+
+tr:not(:last-child) th,
+tr:not(:last-child) td {
+  border-bottom: 1px #e3ddd7 solid;
+  padding-bottom: 12px;
+}
+
+th {
+  padding-left: 32px;
 }
